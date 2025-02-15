@@ -1,0 +1,2504 @@
+{
+  "version": "39.0.0",
+  "artifacts": {
+    "amplify-serverlessabc-Prateek-sandbox-82be4e34e1.assets": {
+      "type": "cdk:asset-manifest",
+      "properties": {
+        "file": "amplify-serverlessabc-Prateek-sandbox-82be4e34e1.assets.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+      }
+    },
+    "amplify-serverlessabc-Prateek-sandbox-82be4e34e1": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "amplify-serverlessabc-Prateek-sandbox-82be4e34e1.template.json",
+        "terminationProtection": false,
+        "tags": {
+          "amplify:deployment-type": "sandbox",
+          "created-by": "amplify"
+        },
+        "validateOnSynth": false,
+        "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}",
+        "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/087521758a614296726befb03f3a67cbe4c964d97f115fbc415e5cc1fe74cca6.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
+        "additionalDependencies": [
+          "amplify-serverlessabc-Prateek-sandbox-82be4e34e1.assets"
+        ],
+        "lookupRole": {
+          "arn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-lookup-role-${AWS::AccountId}-${AWS::Region}",
+          "requiresBootstrapStackVersion": 8,
+          "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+        }
+      },
+      "dependencies": [
+        "amplify-serverlessabc-Prateek-sandbox-82be4e34e1.assets"
+      ],
+      "metadata": {
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1": [
+          {
+            "type": "aws:cdk:stack-tags",
+            "data": [
+              {
+                "Key": "amplify:deployment-type",
+                "Value": "sandbox"
+              },
+              {
+                "Key": "created-by",
+                "Value": "amplify"
+              }
+            ]
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/deploymentType": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "deploymentType"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/region": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "region"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/auth/amplifyAuth/UserPool/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthUserPool4BA7F805"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/auth/amplifyAuth/UserPoolAppClient/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthUserPoolAppClient2626C6F8"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/auth/amplifyAuth/IdentityPool": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthIdentityPool3FDE84CC"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/auth/amplifyAuth/authenticatedUserRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthauthenticatedUserRoleD8DA3689"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/auth/amplifyAuth/unauthenticatedUserRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthunauthenticatedUserRole2B524D9E"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/auth/amplifyAuth/IdentityPoolRoleAttachment": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthIdentityPoolRoleAttachment045F17C8"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/auth/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/auth/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/auth/amplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthUserPool1E30CBF2Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthUserPool1E30CBF2Ref"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/auth/amplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthUserPoolAppClientCAB8617FRef": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthUserPoolAppClientCAB8617FRef"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/auth/amplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthIdentityPool4A679FA5Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthIdentityPool4A679FA5Ref"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/auth/amplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthauthenticatedUserRoleC58DEF29Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthauthenticatedUserRoleC58DEF29Ref"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/auth/amplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthunauthenticatedUserRole3DD14B9FRef": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthunauthenticatedUserRole3DD14B9FRef"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/auth.NestedStack/auth.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "auth179371D7"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/userPoolId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "userPoolId"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/webClientId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "webClientId"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/identityPoolId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "identityPoolId"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/authRegion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "authRegion"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/allowUnauthenticatedIdentities": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "allowUnauthenticatedIdentities"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/signupAttributes": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "signupAttributes"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/usernameAttributes": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "usernameAttributes"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/verificationMechanisms": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "verificationMechanisms"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/passwordPolicyMinLength": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "passwordPolicyMinLength"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/passwordPolicyRequirements": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "passwordPolicyRequirements"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/mfaConfiguration": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "mfaConfiguration"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/mfaTypes": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "mfaTypes"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/socialProviders": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "socialProviders"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/oauthCognitoDomain": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthCognitoDomain"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/oauthScope": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthScope"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/oauthRedirectSignIn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthRedirectSignIn"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/oauthRedirectSignOut": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthRedirectSignOut"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/oauthResponseType": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthResponseType"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/oauthClientId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthClientId"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/groups": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "groups"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/GraphQLAPI/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataGraphQLAPI42A6FA33"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/GraphQLAPI/TransformerSchema": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataGraphQLAPITransformerSchemaFF50A789"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/GraphQLAPI/DefaultApiKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataGraphQLAPIDefaultApiKey1C8ED374"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/GraphQLAPI/NONE_DS": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "NONE_DS"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/GraphQLAPI/NONE_DS/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataGraphQLAPINONEDS684BF699"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "NONE_DS"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/AmplifyTableManager/AmplifyManagedTableIsCompleteRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyManagedTableIsCompleteRoleF825222C"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/AmplifyTableManager/AmplifyManagedTableOnEventRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyManagedTableOnEventRoleB4E71DEA"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/AmplifyTableManager/AmplifyManagedTableOnEventRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyManagedTableOnEventRoleDefaultPolicyF6DABCB6"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/AmplifyTableManager/TableManagerCustomProvider/framework-onEvent/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TableManagerCustomProviderframeworkonEvent1DFC2ECC"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/AmplifyTableManager/TableManagerCustomProvider/framework-isComplete/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TableManagerCustomProviderframeworkisComplete2E51021B"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/AmplifyTableManager/AmplifyTableWaiterStateMachine/Role/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyTableWaiterStateMachineRole470BE899"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/AmplifyTableManager/AmplifyTableWaiterStateMachine/Role/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyTableWaiterStateMachineRoleDefaultPolicy89F3836A"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/AmplifyTableManager/AmplifyTableWaiterStateMachine/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyTableWaiterStateMachine060600BC"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/AmplifyTableManager/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/AmplifyTableManager/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/AmplifyTableManager/reference-to-amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataGraphQLAPI6993504EApiId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataGraphQLAPI6993504EApiId"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/AmplifyTableManager/amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEventCBB1BDA2Arn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEventCBB1BDA2Arn"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/AmplifyTableManager.NestedStack/AmplifyTableManager.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource86290833"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/DynamoDBModelTableReadIOPS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBModelTableReadIOPS"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/DynamoDBModelTableWriteIOPS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBModelTableWriteIOPS"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/DynamoDBBillingMode": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBBillingMode"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/DynamoDBEnablePointInTimeRecovery": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBEnablePointInTimeRecovery"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/DynamoDBEnableServerSideEncryption": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBEnableServerSideEncryption"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/HasEnvironmentParameter": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HasEnvironmentParameter"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/ShouldUseServerSideEncryption": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ShouldUseServerSideEncryption"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/ShouldUsePayPerRequestBilling": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ShouldUsePayPerRequestBilling"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/ShouldUsePointInTimeRecovery": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ShouldUsePointInTimeRecovery"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/TodoTable": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Todo"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/TodoTable/Default/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TodoTable"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Todo"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/CustomTableTodoTable": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Todo"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/GetAttTodoTableStreamArn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GetAttTodoTableStreamArn"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/GetAttTodoTableName": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GetAttTodoTableName"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/TodoIAMRole": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "TodoIAMRole"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/TodoIAMRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TodoIAMRole2DA8E66E"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "TodoIAMRole"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/TodoDataSource": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "TodoTable"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/TodoDataSource/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TodoDataSource"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "TodoTable"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/QuerygetTodoauth0Function/QuerygetTodoauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerygetTodoauth0FunctionQuerygetTodoauth0FunctionAppSyncFunction846D8436"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerygetTodoauth0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/QuerygetTodopostAuth0Function/QuerygetTodopostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerygetTodopostAuth0FunctionQuerygetTodopostAuth0FunctionAppSyncFunction6BE14593"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerygetTodopostAuth0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/QueryGetTodoDataResolverFn/QueryGetTodoDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QueryGetTodoDataResolverFnQueryGetTodoDataResolverFnAppSyncFunctionE2B57DAD"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QueryGetTodoDataResolverFn"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/queryGetTodoResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GetTodoResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Query.getTodo"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/QuerylistTodosauth0Function/QuerylistTodosauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerylistTodosauth0FunctionQuerylistTodosauth0FunctionAppSyncFunction7D761961"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerylistTodosauth0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/QuerylistTodospostAuth0Function/QuerylistTodospostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerylistTodospostAuth0FunctionQuerylistTodospostAuth0FunctionAppSyncFunction154D8577"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerylistTodospostAuth0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/QueryListTodosDataResolverFn/QueryListTodosDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QueryListTodosDataResolverFnQueryListTodosDataResolverFnAppSyncFunctionF825FE47"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QueryListTodosDataResolverFn"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/queryListTodosResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ListTodoResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Query.listTodos"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/MutationcreateTodoinit0Function/MutationcreateTodoinit0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationcreateTodoinit0FunctionMutationcreateTodoinit0FunctionAppSyncFunction54DE5B8B"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationcreateTodoinit0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/MutationcreateTodoauth0Function/MutationcreateTodoauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationcreateTodoauth0FunctionMutationcreateTodoauth0FunctionAppSyncFunction21817E36"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationcreateTodoauth0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/MutationcreateTodopostAuth0Function/MutationcreateTodopostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationcreateTodopostAuth0FunctionMutationcreateTodopostAuth0FunctionAppSyncFunctionED59EB9F"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationcreateTodopostAuth0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/MutationCreateTodoDataResolverFn/MutationCreateTodoDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationCreateTodoDataResolverFnMutationCreateTodoDataResolverFnAppSyncFunction900EC5CF"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationCreateTodoDataResolverFn"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/mutationCreateTodoResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CreateTodoResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Mutation.createTodo"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/MutationupdateTodoinit0Function/MutationupdateTodoinit0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationupdateTodoinit0FunctionMutationupdateTodoinit0FunctionAppSyncFunction1B95BB19"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationupdateTodoinit0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/MutationupdateTodoauth0Function/MutationupdateTodoauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationupdateTodoauth0FunctionMutationupdateTodoauth0FunctionAppSyncFunction1E4A3112"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationupdateTodoauth0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/MutationupdateTodopostAuth0Function/MutationupdateTodopostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationupdateTodopostAuth0FunctionMutationupdateTodopostAuth0FunctionAppSyncFunction50C507D7"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationupdateTodopostAuth0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/MutationUpdateTodoDataResolverFn/MutationUpdateTodoDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationUpdateTodoDataResolverFnMutationUpdateTodoDataResolverFnAppSyncFunctionBC238C49"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationUpdateTodoDataResolverFn"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/mutationUpdateTodoResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "UpdateTodoResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Mutation.updateTodo"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/MutationdeleteTodoauth0Function/MutationdeleteTodoauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationdeleteTodoauth0FunctionMutationdeleteTodoauth0FunctionAppSyncFunctionC82C218C"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationdeleteTodoauth0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/MutationdeleteTodopostAuth0Function/MutationdeleteTodopostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationdeleteTodopostAuth0FunctionMutationdeleteTodopostAuth0FunctionAppSyncFunction483271A2"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationdeleteTodopostAuth0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/MutationDeleteTodoDataResolverFn/MutationDeleteTodoDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationDeleteTodoDataResolverFnMutationDeleteTodoDataResolverFnAppSyncFunction3879153F"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationDeleteTodoDataResolverFn"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/mutationDeleteTodoResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DeleteTodoResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Mutation.deleteTodo"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/SubscriptiononCreateTodoauth0Function/SubscriptiononCreateTodoauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononCreateTodoauth0FunctionSubscriptiononCreateTodoauth0FunctionAppSyncFunction042EF9E1"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononCreateTodoauth0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/SubscriptiononCreateTodopostAuth0Function/SubscriptiononCreateTodopostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononCreateTodopostAuth0FunctionSubscriptiononCreateTodopostAuth0FunctionAppSyncFunction18E34C4E"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononCreateTodopostAuth0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/SubscriptionOnCreateTodoDataResolverFn/SubscriptionOnCreateTodoDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptionOnCreateTodoDataResolverFnSubscriptionOnCreateTodoDataResolverFnAppSyncFunction462A70C9"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptionOnCreateTodoDataResolverFn"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/subscriptionOnCreateTodoResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononCreateTodoResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Subscription.onCreateTodo"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/SubscriptiononUpdateTodoauth0Function/SubscriptiononUpdateTodoauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononUpdateTodoauth0FunctionSubscriptiononUpdateTodoauth0FunctionAppSyncFunction80D0DFA3"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononUpdateTodoauth0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/SubscriptiononUpdateTodopostAuth0Function/SubscriptiononUpdateTodopostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononUpdateTodopostAuth0FunctionSubscriptiononUpdateTodopostAuth0FunctionAppSyncFunction04445BC7"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononUpdateTodopostAuth0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/SubscriptionOnUpdateTodoDataResolverFn/SubscriptionOnUpdateTodoDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptionOnUpdateTodoDataResolverFnSubscriptionOnUpdateTodoDataResolverFnAppSyncFunction523DF0E4"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptionOnUpdateTodoDataResolverFn"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/subscriptionOnUpdateTodoResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononUpdateTodoResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Subscription.onUpdateTodo"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/SubscriptiononDeleteTodoauth0Function/SubscriptiononDeleteTodoauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononDeleteTodoauth0FunctionSubscriptiononDeleteTodoauth0FunctionAppSyncFunctionF69F2220"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononDeleteTodoauth0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/SubscriptiononDeleteTodopostAuth0Function/SubscriptiononDeleteTodopostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononDeleteTodopostAuth0FunctionSubscriptiononDeleteTodopostAuth0FunctionAppSyncFunctionE131CBE7"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononDeleteTodopostAuth0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/SubscriptionOnDeleteTodoDataResolverFn/SubscriptionOnDeleteTodoDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptionOnDeleteTodoDataResolverFnSubscriptionOnDeleteTodoDataResolverFnAppSyncFunction3E641E8C"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptionOnDeleteTodoDataResolverFn"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/subscriptionOnDeleteTodoResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononDeleteTodoResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Subscription.onDeleteTodo"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/reference-to-amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource0B235D1COutputs.amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEventCBB1BDA2Arn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource0B235D1COutputsamplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataAmplifyTableManagerTableMana64A466BF"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/reference-to-amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataGraphQLAPI6993504EApiId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataGraphQLAPI6993504EApiId"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/reference-to-amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataGraphQLAPINONEDS3D6C2C62Name": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataGraphQLAPINONEDS3D6C2C62Name"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/reference-to-amplifyserverlessabcPrateeksandbox82be4e34e1authNestedStackauthNestedStackResourceF1C75A9DOutputs.amplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthauthenticatedUserRoleC58DEF29Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyserverlessabcPrateeksandbox82be4e34e1authNestedStackauthNestedStackResourceF1C75A9DOutputsamplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthauthenticatedUserRoleC58DEF29Ref"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/reference-to-amplifyserverlessabcPrateeksandbox82be4e34e1authNestedStackauthNestedStackResourceF1C75A9DOutputs.amplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthunauthenticatedUserRole3DD14B9FRef": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyserverlessabcPrateeksandbox82be4e34e1authNestedStackauthNestedStackResourceF1C75A9DOutputsamplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthunauthenticatedUserRole3DD14B9FRef"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo/reference-to-amplifyserverlessabcPrateeksandbox82be4e34e1authNestedStackauthNestedStackResourceF1C75A9DOutputs.amplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthIdentityPool4A679FA5Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyserverlessabcPrateeksandbox82be4e34e1authNestedStackauthNestedStackResourceF1C75A9DOutputsamplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthIdentityPool4A679FA5Ref"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Todo.NestedStack/Todo.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataTodoNestedStackTodoNestedStackResource551CEA56"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/DynamoDBModelTableReadIOPS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBModelTableReadIOPS"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/DynamoDBModelTableWriteIOPS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBModelTableWriteIOPS"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/DynamoDBBillingMode": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBBillingMode"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/DynamoDBEnablePointInTimeRecovery": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBEnablePointInTimeRecovery"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/DynamoDBEnableServerSideEncryption": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBEnableServerSideEncryption"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/HasEnvironmentParameter": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HasEnvironmentParameter"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/ShouldUseServerSideEncryption": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ShouldUseServerSideEncryption"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/ShouldUsePayPerRequestBilling": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ShouldUsePayPerRequestBilling"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/ShouldUsePointInTimeRecovery": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ShouldUsePointInTimeRecovery"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/ConversationChatTable": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "ConversationChat"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/ConversationChatTable/Default/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ConversationChatTable"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "ConversationChat"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/CustomTableConversationChatTable": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "ConversationChat"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/GetAttConversationChatTableStreamArn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GetAttConversationChatTableStreamArn"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/GetAttConversationChatTableName": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GetAttConversationChatTableName"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/ConversationChatIAMRole": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "ConversationChatIAMRole"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/ConversationChatIAMRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ConversationChatIAMRoleD167273A"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "ConversationChatIAMRole"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/ConversationChatDataSource": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "ConversationChatTable"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/ConversationChatDataSource/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ConversationChatDataSource"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "ConversationChatTable"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/QuerygetConversationChatauth0Function/QuerygetConversationChatauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerygetConversationChatauth0FunctionQuerygetConversationChatauth0FunctionAppSyncFunction524FA02A"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerygetConversationChatauth0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/QuerygetConversationChatpostAuth0Function/QuerygetConversationChatpostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerygetConversationChatpostAuth0FunctionQuerygetConversationChatpostAuth0FunctionAppSyncFunction7BBF095B"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerygetConversationChatpostAuth0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/QueryGetConversationChatDataResolverFn/QueryGetConversationChatDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QueryGetConversationChatDataResolverFnQueryGetConversationChatDataResolverFnAppSyncFunctionBB48076F"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QueryGetConversationChatDataResolverFn"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/queryGetConversationChatResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GetConversationChatResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Query.getConversationChat"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/QuerylistConversationChatsinit0Function/QuerylistConversationChatsinit0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerylistConversationChatsinit0FunctionQuerylistConversationChatsinit0FunctionAppSyncFunctionCDE5B05D"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerylistConversationChatsinit0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/QuerylistConversationChatsauth0Function/QuerylistConversationChatsauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerylistConversationChatsauth0FunctionQuerylistConversationChatsauth0FunctionAppSyncFunction8E7C60CE"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerylistConversationChatsauth0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/QuerylistConversationChatspostAuth0Function/QuerylistConversationChatspostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerylistConversationChatspostAuth0FunctionQuerylistConversationChatspostAuth0FunctionAppSyncFunctionD6890B78"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerylistConversationChatspostAuth0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/QueryListConversationChatsDataResolverFn/QueryListConversationChatsDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QueryListConversationChatsDataResolverFnQueryListConversationChatsDataResolverFnAppSyncFunctionD5BDD2C1"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QueryListConversationChatsDataResolverFn"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/queryListConversationChatsResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ListConversationChatResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Query.listConversationChats"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/MutationcreateConversationChatinit0Function/MutationcreateConversationChatinit0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationcreateConversationChatinit0FunctionMutationcreateConversationChatinit0FunctionAppSyncFunction5DCF156D"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationcreateConversationChatinit0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/MutationcreateConversationChatauth0Function/MutationcreateConversationChatauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationcreateConversationChatauth0FunctionMutationcreateConversationChatauth0FunctionAppSyncFunctionF58B8598"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationcreateConversationChatauth0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/MutationcreateConversationChatpostAuth0Function/MutationcreateConversationChatpostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationcreateConversationChatpostAuth0FunctionMutationcreateConversationChatpostAuth0FunctionAppSyncFunction3DDE4BBE"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationcreateConversationChatpostAuth0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/MutationCreateConversationChatDataResolverFn/MutationCreateConversationChatDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationCreateConversationChatDataResolverFnMutationCreateConversationChatDataResolverFnAppSyncFunctionA2097B10"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationCreateConversationChatDataResolverFn"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/mutationCreateConversationChatResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CreateConversationChatResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Mutation.createConversationChat"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/MutationupdateConversationChatinit0Function/MutationupdateConversationChatinit0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationupdateConversationChatinit0FunctionMutationupdateConversationChatinit0FunctionAppSyncFunctionF646713C"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationupdateConversationChatinit0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/MutationupdateConversationChatauth0Function/MutationupdateConversationChatauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationupdateConversationChatauth0FunctionMutationupdateConversationChatauth0FunctionAppSyncFunctionCFF46195"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationupdateConversationChatauth0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/MutationupdateConversationChatpostAuth0Function/MutationupdateConversationChatpostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationupdateConversationChatpostAuth0FunctionMutationupdateConversationChatpostAuth0FunctionAppSyncFunctionF56F1D4E"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationupdateConversationChatpostAuth0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/MutationUpdateConversationChatDataResolverFn/MutationUpdateConversationChatDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationUpdateConversationChatDataResolverFnMutationUpdateConversationChatDataResolverFnAppSyncFunction1A608E2A"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationUpdateConversationChatDataResolverFn"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/mutationUpdateConversationChatResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "UpdateConversationChatResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Mutation.updateConversationChat"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/MutationdeleteConversationChatauth0Function/MutationdeleteConversationChatauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationdeleteConversationChatauth0FunctionMutationdeleteConversationChatauth0FunctionAppSyncFunction1C4935BC"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationdeleteConversationChatauth0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/MutationdeleteConversationChatpostAuth0Function/MutationdeleteConversationChatpostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationdeleteConversationChatpostAuth0FunctionMutationdeleteConversationChatpostAuth0FunctionAppSyncFunction146C6814"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationdeleteConversationChatpostAuth0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/MutationDeleteConversationChatDataResolverFn/MutationDeleteConversationChatDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationDeleteConversationChatDataResolverFnMutationDeleteConversationChatDataResolverFnAppSyncFunction70B67F5B"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationDeleteConversationChatDataResolverFn"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/mutationDeleteConversationChatResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DeleteConversationChatResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Mutation.deleteConversationChat"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/ConversationChatOwnerDataResolverFn/ConversationChatOwnerDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ConversationChatOwnerDataResolverFnConversationChatOwnerDataResolverFnAppSyncFunctionB6ADBA00"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "ConversationChatOwnerDataResolverFn"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/conversationChatOwnerResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ConversationChatownerResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "ConversationChat.owner"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/reference-to-amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource0B235D1COutputs.amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEventCBB1BDA2Arn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource0B235D1COutputsamplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataAmplifyTableManagerTableMana64A466BF"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/reference-to-amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataGraphQLAPI6993504EApiId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataGraphQLAPI6993504EApiId"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/reference-to-amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataGraphQLAPINONEDS3D6C2C62Name": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataGraphQLAPINONEDS3D6C2C62Name"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/reference-to-amplifyserverlessabcPrateeksandbox82be4e34e1authNestedStackauthNestedStackResourceF1C75A9DOutputs.amplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthauthenticatedUserRoleC58DEF29Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyserverlessabcPrateeksandbox82be4e34e1authNestedStackauthNestedStackResourceF1C75A9DOutputsamplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthauthenticatedUserRoleC58DEF29Ref"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/reference-to-amplifyserverlessabcPrateeksandbox82be4e34e1authNestedStackauthNestedStackResourceF1C75A9DOutputs.amplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthunauthenticatedUserRole3DD14B9FRef": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyserverlessabcPrateeksandbox82be4e34e1authNestedStackauthNestedStackResourceF1C75A9DOutputsamplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthunauthenticatedUserRole3DD14B9FRef"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/reference-to-amplifyserverlessabcPrateeksandbox82be4e34e1authNestedStackauthNestedStackResourceF1C75A9DOutputs.amplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthIdentityPool4A679FA5Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyserverlessabcPrateeksandbox82be4e34e1authNestedStackauthNestedStackResourceF1C75A9DOutputsamplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthIdentityPool4A679FA5Ref"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataConversationChatConversationChatDataSource34FE5643Name": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataConversationChatConversationChatDataSource34FE5643Name"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat/amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataConversationChatConversationChatTableFB3D472BTableArn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataConversationChatConversationChatTableFB3D472BTableArn"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationChat.NestedStack/ConversationChat.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataConversationChatNestedStackConversationChatNestedStackResourceB49D22E6"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/DynamoDBModelTableReadIOPS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBModelTableReadIOPS"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/DynamoDBModelTableWriteIOPS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBModelTableWriteIOPS"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/DynamoDBBillingMode": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBBillingMode"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/DynamoDBEnablePointInTimeRecovery": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBEnablePointInTimeRecovery"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/DynamoDBEnableServerSideEncryption": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBEnableServerSideEncryption"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/HasEnvironmentParameter": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HasEnvironmentParameter"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/ShouldUseServerSideEncryption": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ShouldUseServerSideEncryption"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/ShouldUsePayPerRequestBilling": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ShouldUsePayPerRequestBilling"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/ShouldUsePointInTimeRecovery": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ShouldUsePointInTimeRecovery"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/ConversationMessageChatTable": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "ConversationMessageChat"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/ConversationMessageChatTable/Default/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ConversationMessageChatTable"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "ConversationMessageChat"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/CustomTableConversationMessageChatTable": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "ConversationMessageChat"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/GetAttConversationMessageChatTableStreamArn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GetAttConversationMessageChatTableStreamArn"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/GetAttConversationMessageChatTableName": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GetAttConversationMessageChatTableName"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/ConversationMessageChatIAMRole": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "ConversationMessageChatIAMRole"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/ConversationMessageChatIAMRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ConversationMessageChatIAMRole5EF4CA0B"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "ConversationMessageChatIAMRole"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/ConversationMessageChatDataSource": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "ConversationMessageChatTable"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/ConversationMessageChatDataSource/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ConversationMessageChatDataSource"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "ConversationMessageChatTable"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/QuerygetConversationMessageChatauth0Function/QuerygetConversationMessageChatauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerygetConversationMessageChatauth0FunctionQuerygetConversationMessageChatauth0FunctionAppSyncFunction593EA494"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerygetConversationMessageChatauth0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/QuerygetConversationMessageChatpostAuth0Function/QuerygetConversationMessageChatpostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerygetConversationMessageChatpostAuth0FunctionQuerygetConversationMessageChatpostAuth0FunctionAppSyncFunction873960BF"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerygetConversationMessageChatpostAuth0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/QueryGetConversationMessageChatDataResolverFn/QueryGetConversationMessageChatDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QueryGetConversationMessageChatDataResolverFnQueryGetConversationMessageChatDataResolverFnAppSyncFunctionCDE2A088"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QueryGetConversationMessageChatDataResolverFn"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/queryGetConversationMessageChatResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GetConversationMessageChatResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Query.getConversationMessageChat"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/QuerylistConversationMessageChatsinit0Function/QuerylistConversationMessageChatsinit0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerylistConversationMessageChatsinit0FunctionQuerylistConversationMessageChatsinit0FunctionAppSyncFunction559ACEED"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerylistConversationMessageChatsinit0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/QuerylistConversationMessageChatsauth0Function/QuerylistConversationMessageChatsauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerylistConversationMessageChatsauth0FunctionQuerylistConversationMessageChatsauth0FunctionAppSyncFunction299F101D"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerylistConversationMessageChatsauth0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/QuerylistConversationMessageChatspostAuth0Function/QuerylistConversationMessageChatspostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerylistConversationMessageChatspostAuth0FunctionQuerylistConversationMessageChatspostAuth0FunctionAppSyncFunction835B7517"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerylistConversationMessageChatspostAuth0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/QuerylistConversationMessageChatspostDataLoad0Function/QuerylistConversationMessageChatspostDataLoad0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerylistConversationMessageChatspostDataLoad0FunctionQuerylistConversationMessageChatspostDataLoad0FunctionAppSyncFunction24B51193"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerylistConversationMessageChatspostDataLoad0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/QueryListConversationMessageChatsDataResolverFn/QueryListConversationMessageChatsDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QueryListConversationMessageChatsDataResolverFnQueryListConversationMessageChatsDataResolverFnAppSyncFunctionF0EC7666"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QueryListConversationMessageChatsDataResolverFn"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/queryListConversationMessageChatsResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ListConversationMessageChatResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Query.listConversationMessageChats"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/MutationcreateConversationMessageChatinit0Function/MutationcreateConversationMessageChatinit0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationcreateConversationMessageChatinit0FunctionMutationcreateConversationMessageChatinit0FunctionAppSyncFunctionDBEA58D5"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationcreateConversationMessageChatinit0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/MutationcreateConversationMessageChatauth0Function/MutationcreateConversationMessageChatauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationcreateConversationMessageChatauth0FunctionMutationcreateConversationMessageChatauth0FunctionAppSyncFunction8D20A725"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationcreateConversationMessageChatauth0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/MutationcreateConversationMessageChatpostAuth0Function/MutationcreateConversationMessageChatpostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationcreateConversationMessageChatpostAuth0FunctionMutationcreateConversationMessageChatpostAuth0FunctionAppSyncFunction789CAF68"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationcreateConversationMessageChatpostAuth0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/MutationCreateConversationMessageChatDataResolverFn/MutationCreateConversationMessageChatDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationCreateConversationMessageChatDataResolverFnMutationCreateConversationMessageChatDataResolverFnAppSyncFunctionA2C405ED"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationCreateConversationMessageChatDataResolverFn"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/mutationCreateConversationMessageChatResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CreateConversationMessageChatResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Mutation.createConversationMessageChat"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/MutationdeleteConversationMessageChatauth0Function/MutationdeleteConversationMessageChatauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationdeleteConversationMessageChatauth0FunctionMutationdeleteConversationMessageChatauth0FunctionAppSyncFunction085E69ED"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationdeleteConversationMessageChatauth0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/MutationdeleteConversationMessageChatpostAuth0Function/MutationdeleteConversationMessageChatpostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationdeleteConversationMessageChatpostAuth0FunctionMutationdeleteConversationMessageChatpostAuth0FunctionAppSyncFunction7022CDF5"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationdeleteConversationMessageChatpostAuth0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/MutationDeleteConversationMessageChatDataResolverFn/MutationDeleteConversationMessageChatDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationDeleteConversationMessageChatDataResolverFnMutationDeleteConversationMessageChatDataResolverFnAppSyncFunctionDF45E5D9"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationDeleteConversationMessageChatDataResolverFn"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/mutationDeleteConversationMessageChatResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DeleteConversationMessageChatResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Mutation.deleteConversationMessageChat"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/SubscriptiononCreateConversationMessageChatauth0Function/SubscriptiononCreateConversationMessageChatauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononCreateConversationMessageChatauth0FunctionSubscriptiononCreateConversationMessageChatauth0FunctionAppSyncFunction436936A2"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononCreateConversationMessageChatauth0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/SubscriptiononCreateConversationMessageChatpostAuth0Function/SubscriptiononCreateConversationMessageChatpostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononCreateConversationMessageChatpostAuth0FunctionSubscriptiononCreateConversationMessageChatpostAuth0FunctionAppSyncFunctionF51AA4F7"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononCreateConversationMessageChatpostAuth0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/SubscriptionOnCreateConversationMessageChatDataResolverFn/SubscriptionOnCreateConversationMessageChatDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptionOnCreateConversationMessageChatDataResolverFnSubscriptionOnCreateConversationMessageChatDataResolverFnAppSyncFunctionB6006296"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptionOnCreateConversationMessageChatDataResolverFn"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/subscriptionOnCreateConversationMessageChatResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononCreateConversationMessageChatResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Subscription.onCreateConversationMessageChat"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/ConversationMessageChatOwnerDataResolverFn/ConversationMessageChatOwnerDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ConversationMessageChatOwnerDataResolverFnConversationMessageChatOwnerDataResolverFnAppSyncFunctionDA4315F0"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "ConversationMessageChatOwnerDataResolverFn"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/conversationMessageChatOwnerResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ConversationMessageChatownerResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "ConversationMessageChat.owner"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/reference-to-amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource0B235D1COutputs.amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEventCBB1BDA2Arn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource0B235D1COutputsamplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataAmplifyTableManagerTableMana64A466BF"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/reference-to-amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataGraphQLAPI6993504EApiId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataGraphQLAPI6993504EApiId"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/reference-to-amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataGraphQLAPINONEDS3D6C2C62Name": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataGraphQLAPINONEDS3D6C2C62Name"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/reference-to-amplifyserverlessabcPrateeksandbox82be4e34e1authNestedStackauthNestedStackResourceF1C75A9DOutputs.amplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthauthenticatedUserRoleC58DEF29Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyserverlessabcPrateeksandbox82be4e34e1authNestedStackauthNestedStackResourceF1C75A9DOutputsamplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthauthenticatedUserRoleC58DEF29Ref"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/reference-to-amplifyserverlessabcPrateeksandbox82be4e34e1authNestedStackauthNestedStackResourceF1C75A9DOutputs.amplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthunauthenticatedUserRole3DD14B9FRef": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyserverlessabcPrateeksandbox82be4e34e1authNestedStackauthNestedStackResourceF1C75A9DOutputsamplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthunauthenticatedUserRole3DD14B9FRef"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/reference-to-amplifyserverlessabcPrateeksandbox82be4e34e1authNestedStackauthNestedStackResourceF1C75A9DOutputs.amplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthIdentityPool4A679FA5Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyserverlessabcPrateeksandbox82be4e34e1authNestedStackauthNestedStackResourceF1C75A9DOutputsamplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthIdentityPool4A679FA5Ref"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataConversationMessageChatConversationMessageChatDataSource1D6C1676Name": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataConversationMessageChatConversationMessageChatDataSource1D6C1676Name"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat/amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataConversationMessageChatConversationMessageChatTable7E3C9969TableArn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataConversationMessageChatConversationMessageChatTable7E3C9969TableArn"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConversationMessageChat.NestedStack/ConversationMessageChat.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataConversationMessageChatNestedStackConversationMessageChatNestedStackResource0217AC4A"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConnectionStack/ConversationChatmessagesauth0Function/ConversationChatmessagesauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ConversationChatmessagesauth0FunctionConversationChatmessagesauth0FunctionAppSyncFunctionC868475F"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "ConversationChatmessagesauth0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConnectionStack/ConversationChatMessagesDataResolverFn/ConversationChatMessagesDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ConversationChatMessagesDataResolverFnConversationChatMessagesDataResolverFnAppSyncFunction61A709B4"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "ConversationChatMessagesDataResolverFn"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConnectionStack/conversationChatMessagesResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ConversationChatmessagesResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "ConversationChat.messages"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConnectionStack/ConversationMessageChatconversationauth0Function/ConversationMessageChatconversationauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ConversationMessageChatconversationauth0FunctionConversationMessageChatconversationauth0FunctionAppSyncFunctionA7F67386"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "ConversationMessageChatconversationauth0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConnectionStack/ConversationMessageChatConversationDataResolverFn/ConversationMessageChatConversationDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ConversationMessageChatConversationDataResolverFnConversationMessageChatConversationDataResolverFnAppSyncFunction3594FEF4"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "ConversationMessageChatConversationDataResolverFn"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConnectionStack/conversationMessageChatConversationResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ConversationMessageChatconversationResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "ConversationMessageChat.conversation"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConnectionStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConnectionStack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConnectionStack/reference-to-amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataGraphQLAPI6993504EApiId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataGraphQLAPI6993504EApiId"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConnectionStack/reference-to-amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataGraphQLAPINONEDS3D6C2C62Name": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataGraphQLAPINONEDS3D6C2C62Name"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConnectionStack/reference-to-amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataConversationMessageChatNestedStackConversationMessageChatNestedStackResource8641A197Outputs.amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataConversationMessageChatConversationMessageChatDataSource1D6C1676Name": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataConversationMessageChatNestedStackConversationMessageChatNestedStackResource8641A197OutputsamplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataConversationMessageCE137D862"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConnectionStack/reference-to-amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataConversationMessageChatNestedStackConversationMessageChatNestedStackResource8641A197Outputs.amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataConversationMessageChatConversationMessageChatTable7E3C9969TableArn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataConversationMessageChatNestedStackConversationMessageChatNestedStackResource8641A197OutputsamplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataConversationMessageCCEE15A29"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConnectionStack/reference-to-amplifyserverlessabcPrateeksandbox82be4e34e1authNestedStackauthNestedStackResourceF1C75A9DOutputs.amplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthauthenticatedUserRoleC58DEF29Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyserverlessabcPrateeksandbox82be4e34e1authNestedStackauthNestedStackResourceF1C75A9DOutputsamplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthauthenticatedUserRoleC58DEF29Ref"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConnectionStack/reference-to-amplifyserverlessabcPrateeksandbox82be4e34e1authNestedStackauthNestedStackResourceF1C75A9DOutputs.amplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthunauthenticatedUserRole3DD14B9FRef": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyserverlessabcPrateeksandbox82be4e34e1authNestedStackauthNestedStackResourceF1C75A9DOutputsamplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthunauthenticatedUserRole3DD14B9FRef"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConnectionStack/reference-to-amplifyserverlessabcPrateeksandbox82be4e34e1authNestedStackauthNestedStackResourceF1C75A9DOutputs.amplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthIdentityPool4A679FA5Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyserverlessabcPrateeksandbox82be4e34e1authNestedStackauthNestedStackResourceF1C75A9DOutputsamplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthIdentityPool4A679FA5Ref"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConnectionStack/reference-to-amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataConversationChatNestedStackConversationChatNestedStackResourceE0304689Outputs.amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataConversationChatConversationChatDataSource34FE5643Name": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataConversationChatNestedStackConversationChatNestedStackResourceE0304689OutputsamplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataConversationChatConversationChatDaB1631612"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConnectionStack/reference-to-amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataConversationChatNestedStackConversationChatNestedStackResourceE0304689Outputs.amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataConversationChatConversationChatTableFB3D472BTableArn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataConversationChatNestedStackConversationChatNestedStackResourceE0304689OutputsamplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataConversationChatConversationChatTa77E5D3C1"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ConnectionStack.NestedStack/ConnectionStack.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataConnectionStackNestedStackConnectionStackNestedStackResourceAB0F312B"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ChatConversationDirectiveLambdaStack/ChatDefaultConversationHandler/conversationHandlerFunctionLogGroup/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ChatDefaultConversationHandlerconversationHandlerFunctionLogGroup62E17E2F"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ChatConversationDirectiveLambdaStack/ChatDefaultConversationHandler/conversationHandlerFunction/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ChatDefaultConversationHandlerconversationHandlerFunctionServiceRole2D7CD4AE"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ChatConversationDirectiveLambdaStack/ChatDefaultConversationHandler/conversationHandlerFunction/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ChatDefaultConversationHandlerconversationHandlerFunctionServiceRoleDefaultPolicy8AA99C30"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ChatConversationDirectiveLambdaStack/ChatDefaultConversationHandler/conversationHandlerFunction/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ChatDefaultConversationHandlerconversationHandlerFunctionBA021928"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ChatConversationDirectiveLambdaStack/ChatDefaultConversationHandlerLambdaDataSource": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "ChatDefaultConversationHandlerLambdaDataSource"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ChatConversationDirectiveLambdaStack/ChatDefaultConversationHandlerLambdaDataSource/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ChatDefaultConversationHandlerLambdaDataSourceServiceRole58420F2E"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ChatConversationDirectiveLambdaStack/ChatDefaultConversationHandlerLambdaDataSource/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ChatDefaultConversationHandlerLambdaDataSourceServiceRoleDefaultPolicy0A78D594"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ChatConversationDirectiveLambdaStack/ChatDefaultConversationHandlerLambdaDataSource/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ChatDefaultConversationHandlerLambdaDataSource"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "ChatDefaultConversationHandlerLambdaDataSource"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ChatConversationDirectiveLambdaStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ChatConversationDirectiveLambdaStack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ChatConversationDirectiveLambdaStack/reference-to-amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataGraphQLAPI6993504EApiId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataGraphQLAPI6993504EApiId"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ChatConversationDirectiveLambdaStack/amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataChatConversationDirectiveLambdaStackChatDefaultConversationHandlerLambdaDataSource6E7E9B4BName": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataChatConversationDirectiveLambdaStackChatDefaultConversationHandlerLambdaDataSource6E7E9B4BName"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ChatConversationDirectiveLambdaStack/amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataChatConversationDirectiveLambdaStackChatDefaultConversationHandlerconversationHandlerFunction52F93385Arn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataChatConversationDirectiveLambdaStackChatDefaultConversationHandlerconversationHandlerFunction52F93385Arn"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ChatConversationDirectiveLambdaStack/amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataChatConversationDirectiveLambdaStackChatDefaultConversationHandlerconversationHandlerFunction52F93385Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataChatConversationDirectiveLambdaStackChatDefaultConversationHandlerconversationHandlerFunction52F93385Ref"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/ChatConversationDirectiveLambdaStack.NestedStack/ChatConversationDirectiveLambdaStack.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataChatConversationDirectiveLambdaStackNestedStackChatConversationDirectiveLambdaStackNestedStackResource81346F08"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Mutationchatinit0Function/Mutationchatinit0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataMutationchatinit0FunctionMutationchatinit0FunctionAppSyncFunctionDE655FD0"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Mutationchatinit0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/Mutationchatauth0Function/Mutationchatauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataMutationchatauth0FunctionMutationchatauth0FunctionAppSyncFunctionED5AEB0B"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Mutationchatauth0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/MutationchatverifySessionOwner0Function/MutationchatverifySessionOwner0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataMutationchatverifySessionOwner0FunctionMutationchatverifySessionOwner0FunctionAppSyncFunction652E4E97"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationchatverifySessionOwner0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/MutationchatwriteMessageToTable0Function/MutationchatwriteMessageToTable0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataMutationchatwriteMessageToTable0FunctionMutationchatwriteMessageToTable0FunctionAppSyncFunction20870406"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationchatwriteMessageToTable0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/MutationChatDataResolverFn/MutationChatDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataMutationChatDataResolverFnMutationChatDataResolverFnAppSyncFunctionE9077046"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationChatDataResolverFn"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/mutationChatResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationchatResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Mutation.chat"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/MutationcreateAssistantResponseChatinit0Function/MutationcreateAssistantResponseChatinit0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataMutationcreateAssistantResponseChatinit0FunctionMutationcreateAssistantResponseChatinit0FunctionAppSyncFunctionBBBC9DD5"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationcreateAssistantResponseChatinit0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/MutationcreateAssistantResponseChatauth0Function/MutationcreateAssistantResponseChatauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataMutationcreateAssistantResponseChatauth0FunctionMutationcreateAssistantResponseChatauth0FunctionAppSyncFunction8DB0CDB5"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationcreateAssistantResponseChatauth0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/MutationcreateAssistantResponseChatverifySessionOwner0Function/MutationcreateAssistantResponseChatverifySessionOwner0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataMutationcreateAssistantResponseChatverifySessionOwner0FunctionMutationcreateAssistantResponseChatverifySessionOwner0FunctionAppSyncFunction82BCCAFB"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationcreateAssistantResponseChatverifySessionOwner0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/MutationCreateAssistantResponseChatDataResolverFn/MutationCreateAssistantResponseChatDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataMutationCreateAssistantResponseChatDataResolverFnMutationCreateAssistantResponseChatDataResolverFnAppSyncFunctionCDF23D22"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationCreateAssistantResponseChatDataResolverFn"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/mutationCreateAssistantResponseChatResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationcreateAssistantResponseChatResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Mutation.createAssistantResponseChat"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/MutationcreateAssistantResponseStreamChatinit0Function/MutationcreateAssistantResponseStreamChatinit0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataMutationcreateAssistantResponseStreamChatinit0FunctionMutationcreateAssistantResponseStreamChatinit0FunctionAppSyncFunction66340FF0"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationcreateAssistantResponseStreamChatinit0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/MutationcreateAssistantResponseStreamChatauth0Function/MutationcreateAssistantResponseStreamChatauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataMutationcreateAssistantResponseStreamChatauth0FunctionMutationcreateAssistantResponseStreamChatauth0FunctionAppSyncFunction129283D1"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationcreateAssistantResponseStreamChatauth0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/MutationcreateAssistantResponseStreamChatverifySessionOwner0Function/MutationcreateAssistantResponseStreamChatverifySessionOwner0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataMutationcreateAssistantResponseStreamChatverifySessionOwner0FunctionMutationcreateAssistantResponseStreamChatverifySessionOwner0FunctionAppSyncFunctionD4F88C6D"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationcreateAssistantResponseStreamChatverifySessionOwner0Function"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/MutationCreateAssistantResponseStreamChatDataResolverFn/MutationCreateAssistantResponseStreamChatDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataMutationCreateAssistantResponseStreamChatDataResolverFnMutationCreateAssistantResponseStreamChatDataResolverFnAppSyncFunctionF328661E"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationCreateAssistantResponseStreamChatDataResolverFn"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/mutationCreateAssistantResponseStreamChatResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationcreateAssistantResponseStreamChatResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Mutation.createAssistantResponseStreamChat"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/SubscriptionOnCreateAssistantResponseChatDataResolverFn/SubscriptionOnCreateAssistantResponseChatDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataSubscriptionOnCreateAssistantResponseChatDataResolverFnSubscriptionOnCreateAssistantResponseChatDataResolverFnAppSyncFunction7E8D8797"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptionOnCreateAssistantResponseChatDataResolverFn"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/subscriptionOnCreateAssistantResponseChatResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononCreateAssistantResponseChatResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Subscription.onCreateAssistantResponseChat"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsBucket/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsBucket9CCB4ACA"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsBucket/Policy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsBucketPolicyF1C1C548"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsBucket/AutoDeleteObjectsCustomResource/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsBucketAutoDeleteObjectsCustomResource437F26F5"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsDeployment/AwsCliLayer/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentAwsCliLayerE322F905"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsDeployment/CustomResource-1536MiB/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentCustomResource1536MiB21775929"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/DynamoDBModelTableReadIOPS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBModelTableReadIOPS"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/DynamoDBModelTableWriteIOPS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBModelTableWriteIOPS"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/DynamoDBBillingMode": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBBillingMode"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/DynamoDBEnablePointInTimeRecovery": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBEnablePointInTimeRecovery"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/DynamoDBEnableServerSideEncryption": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBEnableServerSideEncryption"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/LatestNodeRuntimeMap": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "LatestNodeRuntimeMap"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/Custom::S3AutoDeleteObjectsCustomResourceProvider": [
+          {
+            "type": "aws:cdk:is-custom-resource-handler-customResourceProvider",
+            "data": true
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/Custom::S3AutoDeleteObjectsCustomResourceProvider/Role": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomS3AutoDeleteObjectsCustomResourceProviderRole3B1BD092"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/Custom::S3AutoDeleteObjectsCustomResourceProvider/Handler": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomS3AutoDeleteObjectsCustomResourceProviderHandler9D90184F"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB": [
+          {
+            "type": "aws:cdk:is-custom-resource-handler-singleton",
+            "data": true
+          },
+          {
+            "type": "aws:cdk:is-custom-resource-handler-runtime-family",
+            "data": 2
+          },
+          {
+            "type": "aws:cdk:is-custom-resource-handler-singleton",
+            "data": true
+          },
+          {
+            "type": "aws:cdk:is-custom-resource-handler-runtime-family",
+            "data": 2
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiBServiceRoleA41FC8C2"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiBServiceRoleDefaultPolicyFF1C635B"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiBC5D8AB21"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/modelIntrospectionSchemaBucket/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "modelIntrospectionSchemaBucketF566B665"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/modelIntrospectionSchemaBucket/Policy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "modelIntrospectionSchemaBucketPolicy4DAB0D15"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/modelIntrospectionSchemaBucket/AutoDeleteObjectsCustomResource/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "modelIntrospectionSchemaBucketAutoDeleteObjectsCustomResourceFE57309F"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/modelIntrospectionSchemaBucketDeployment/AwsCliLayer/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "modelIntrospectionSchemaBucketDeploymentAwsCliLayer13C432F7"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/modelIntrospectionSchemaBucketDeployment/CustomResource-1536MiB/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "modelIntrospectionSchemaBucketDeploymentCustomResource1536MiB104B97EC"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/AMPLIFY_DATA_GRAPHQL_ENDPOINTParameter/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AMPLIFYDATAGRAPHQLENDPOINTParameter1C2CBB16"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/AMPLIFY_DATA_MODEL_INTROSPECTION_SCHEMA_BUCKET_NAMEParameter/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AMPLIFYDATAMODELINTROSPECTIONSCHEMABUCKETNAMEParameter47BF4F44"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/AMPLIFY_DATA_MODEL_INTROSPECTION_SCHEMA_KEYParameter/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AMPLIFYDATAMODELINTROSPECTIONSCHEMAKEYParameterB6AEAE8A"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/AMPLIFY_DATA_DEFAULT_NAMEParameter/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AMPLIFYDATADEFAULTNAMEParameterE7C23CC4"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/reference-to-amplifyserverlessabcPrateeksandbox82be4e34e1authNestedStackauthNestedStackResourceF1C75A9DOutputs.amplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthUserPool1E30CBF2Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyserverlessabcPrateeksandbox82be4e34e1authNestedStackauthNestedStackResourceF1C75A9DOutputsamplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthUserPool1E30CBF2Ref"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/reference-to-amplifyserverlessabcPrateeksandbox82be4e34e1authNestedStackauthNestedStackResourceF1C75A9DOutputs.amplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthauthenticatedUserRoleC58DEF29Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyserverlessabcPrateeksandbox82be4e34e1authNestedStackauthNestedStackResourceF1C75A9DOutputsamplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthauthenticatedUserRoleC58DEF29Ref"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/reference-to-amplifyserverlessabcPrateeksandbox82be4e34e1authNestedStackauthNestedStackResourceF1C75A9DOutputs.amplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthunauthenticatedUserRole3DD14B9FRef": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyserverlessabcPrateeksandbox82be4e34e1authNestedStackauthNestedStackResourceF1C75A9DOutputsamplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthunauthenticatedUserRole3DD14B9FRef"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/reference-to-amplifyserverlessabcPrateeksandbox82be4e34e1authNestedStackauthNestedStackResourceF1C75A9DOutputs.amplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthIdentityPool4A679FA5Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyserverlessabcPrateeksandbox82be4e34e1authNestedStackauthNestedStackResourceF1C75A9DOutputsamplifyserverlessabcPrateeksandbox82be4e34e1authamplifyAuthIdentityPool4A679FA5Ref"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataChatConversationDirectiveLambdaStackNestedStackChatConversationDirectiveLambdaStackNestedStackResourceA285DA61Outputs.amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataChatConversationDirectiveLambdaStackChatDefaultConversationHandlerconversationHandlerFunction52F93385Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataChatConversationDirectiveLambdaStackNestedStackChatConversationDirectiveLambdaStackNestedStackResourceA285DA61OutputsamplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataChatC9AE21B52"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataGraphQLAPI6993504EApiId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataGraphQLAPI6993504EApiId"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataGraphQLAPI6993504EGraphQLUrl": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataGraphQLAPI6993504EGraphQLUrl"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentCustomResource1536MiB12923A17DestinationBucketArn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentCustomResource1536MiB12923A17DestinationBucketArn"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data/amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataGraphQLAPIDefaultApiKey202C0084ApiKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyserverlessabcPrateeksandbox82be4e34e1dataamplifyDataGraphQLAPIDefaultApiKey202C0084ApiKey"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/data.NestedStack/data.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "data7552DF31"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/definedConversationHandlers": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "definedConversationHandlers"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/awsAppsyncApiId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncApiId"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/awsAppsyncApiEndpoint": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncApiEndpoint"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/awsAppsyncAuthenticationType": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncAuthenticationType"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/awsAppsyncRegion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncRegion"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/amplifyApiModelSchemaS3Uri": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyApiModelSchemaS3Uri"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/awsAppsyncApiKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncApiKey"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/awsAppsyncAdditionalAuthenticationTypes": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncAdditionalAuthenticationTypes"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/BootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BootstrapVersion"
+          }
+        ],
+        "/amplify-serverlessabc-Prateek-sandbox-82be4e34e1/CheckBootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CheckBootstrapVersion"
+          }
+        ]
+      },
+      "displayName": "amplify-serverlessabc-Prateek-sandbox-82be4e34e1"
+    },
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    }
+  }
+}
